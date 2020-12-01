@@ -62,7 +62,7 @@ function sortColor() {
   const spanRes = document.getElementById("res");
   spanRes.innerHTML = "";
 
-  span.innerHTML = `<img alt=${selectedImage.altImg} width=300 height=200 src=${selectedImage.img}/>`;
+  span.innerHTML = `<img alt=${selectedImage.altImg} width=300 height=200 src=${selectedImage.img} />`;
 
   button.innerText = "Resultado";
 
